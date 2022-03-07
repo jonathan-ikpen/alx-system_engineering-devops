@@ -1,9 +1,0 @@
-#!/bin/bash
-read -p 'filename: ' f
-vi $f
-chmod u+x $f
-./$f
-git add . 
-read -p 'commit message: ' m
-git commit -m "$m"
-git push 
